@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <style>
+        * {
+            font-family: Lato, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #battery {
+            height: 60%;
+        }
+
+        #percentage {
+            margin: 1em 0 0 0;
+            font-size: 25pt;
+        }
+    </style>
+    <script src="app.js"></script>
+</head>
+<body>
+    <svg id="battery" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 757">
+        <defs>
+          <style>
+            #battery-body {
+              fill: #fff;
+              stroke: #000;
+              stroke-miterlimit: 10;
+              stroke-width: 28px;
+            }
+          </style>
+        </defs>
+
+        <rect id="battery-top" x="63" width="253" height="71"/>
+        <rect id="battery-body" x="14" y="70" width="350" height="672"/>
+        <polygon id="battery-fill" points="364,740 14,740 14,442 364,372"/>
+      </svg>
+      <p id="percentage"></p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 757">
+  <defs>
+    <style>
+      .battery-fill {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 28px;
+      }
+    </style>
+  </defs>
+  <title>battery</title>
+  <g>
+    <rect x="63" width="253" height="71"/>
+  </g>
+  <g id="Ebene_1">
+    <rect class="battery-fill" x="14" y="70.5" width="350" height="672.5"/>
+    <polygon points="14 442 364 372 364.5 742.5 14.5 742.5 14 442"/>
+  </g>
+</svg>
